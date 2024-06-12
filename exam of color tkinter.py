@@ -34,7 +34,7 @@ def Time ():
         label_time.config(text='time :' + str(time))
         label_time.after(1000 , Time)
         if time == 0 :
-            messagebox.showerror('ERROR','your time is ended !!!!!!!! if you want play again you should click the left button on mouse!!!!')
+            messagebox.showerror('ERROR','your time is ended !!!!!!!! if you want play again you should click the right button on mouse!!!!')
 #============reset====================
 def reset(event):        
     global time
